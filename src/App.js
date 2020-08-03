@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div>
         {/*Alaways on top*/}
-        <Navbar leftTitles={["Home", "Work", "Blog", "Blinxon"]} rightTitles={["Devdeas", "Retour sur mon site"]}/>
+        <Navbar leftTitles={["Home", "Work", "Blog", "Contact"]} rightTitles={["Devdeas", "Retour sur mon site"]}/>
 
         {/*In routes*/}
         <Switch>
@@ -21,6 +21,11 @@ function App() {
             <div>
             </div>
           }/>
+
+          <Route path='/contact' component={() => {
+            window.location.href = 'https://enzoavagliano.fr/contact';
+            return null;
+          }}/>
         </Switch>
 
         {/*Alaways on bottom*/}
