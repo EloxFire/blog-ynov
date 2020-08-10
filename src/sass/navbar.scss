@@ -1,9 +1,9 @@
 @import "./vars.scss";
 
 .navbarBody{
-  background-color: $backgroudColor;
+  background-color: $black;
   height: 6vh;
-  border-bottom: 1px solid $secondaryColor;
+  border-bottom: 1px solid $violet;
 
   .navbarLogo{
     max-height: 4vh;
@@ -16,17 +16,17 @@
     transition: .2s;
 
     &:hover{
-      color: $secondaryColor;
+      color: $violet;
     }
   }
 
   .dropdownLink{
-    color: $backgroudColor;
+    color: $black;
   }
 
   .purple-line-separator{
     height: 1vh;
     width: 100vw;
-    background-color: $secondaryColor;
+    background-color: $violet;
   }
 }

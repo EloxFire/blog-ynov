@@ -2,18 +2,20 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Intro from './components/Intro';
 
 function App() {
   return(
     <Router>
       <div>
         {/*Alaways on top*/}
-        <Navbar leftTitles={["Home", "Work", "Blog", "Contact"]} rightTitles={["Devdeas", "Retour sur mon site"]}/>
+        <Navbar leftTitles={["Mes stages", "Mon profil", "Contact"]} rightTitles={["Mon site"]}/>
 
         {/*In routes*/}
         <Switch>
           <Route path="/" exact component={props =>
             <div>
+              <Intro/>
             </div>
           }/>
 
@@ -24,6 +26,11 @@ function App() {
 
           <Route path='/contact' component={() => {
             window.location.href = 'https://enzoavagliano.fr/contact';
+            return null;
+          }}/>
+
+          <Route path='/monsite' component={() => {
+            window.location.href = 'https://enzoavagliano.fr';
             return null;
           }}/>
         </Switch>
