@@ -3,24 +3,28 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
+import Stages from './components/Stages';
 
 function App() {
   return(
     <Router>
       <div>
         {/*Alaways on top*/}
-        <Navbar leftTitles={["Mes stages", "Mon profil", "Contact"]} rightTitles={["Mon site"]}/>
+        <Navbar leftTitles={["Accueil", "Mon profil", "Mes stages", "Contact"]} rightTitles={["Mon site"]}/>
 
         {/*In routes*/}
         <Switch>
           <Route path="/" exact component={props =>
             <div>
               <Intro/>
+              <Stages/>
             </div>
           }/>
 
-          <Route path="/home" component={props =>
+          <Route path="/accueil" component={props =>
             <div>
+              <Intro/>
+              <Stages/>
             </div>
           }/>
 

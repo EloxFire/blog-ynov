@@ -1,9 +1,59 @@
 @import "./vars.scss";
 
-#intro{
-  height: 94vh;
-  background-image: url("../img/background.svg");
+.headerContentBody{
+  height: auto;
+  background-color: $black;
+  background-image: url("../img/stars.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: $white;
+
+  .headerContentTitle{
+    font-family: Ubuntu;
+    text-transform: uppercase;
+  }
+  .headerContentLogo{
+    max-height: 10vh;
+  }
+  .headerContentSeparator{
+    width: 2px;
+    height: 13vh;
+    background-color: $white;
+  }
+
+  .headerContentContainer{
+    height: 94vh;
+  }
+}
+
+#stage{
+  height: 100vh;
+
+  .b-dark{
+    background-color: $black;
+    color: $white;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .headerContentTitle{
+    font-size: 2em;
+  }
+  .headerContentContainer{
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+  .headerContentSeparator{
+    width: 50vw !important;
+    height: 1px !important;
+  }
+  .headerContentLogo{
+    max-height: 5vh !important;
+  }
+
+  #stage{
+    height: 180vh !important;
+  }
 }

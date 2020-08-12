@@ -2,24 +2,23 @@ import React, { Component } from 'react';
 import '../sass/styles.scss';
 
 import Card from './Card.jsx';
+import blinxonLogo from "../img/LOGO-BLINXON.png";
+import montopotoLogo from '../img/logo-montopoto.png';
+import collabLogo from '../img/collab.png';
+
 
 class Intro extends Component{
   render(){
     return(
-      <div id="intro" className="col-12 pt-5">
-        <div className="col-12 text-center">
-          <h1>Bienvenue sur mon blog 2020</h1>
-          <p>Avant de commencer, voici quelques informations sur moi</p>
-          <hr/>
-        </div>
-        <div>
-          <div className="d-flex flex-xs-column flex-sm-column flex-md-column flex-lg-row mt-5">
-            <div className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 mt-3 d-flex flex-row align-items-center justify-content-center p-2">
-              <Card title="A propos de moi :" age="19" birth="9/11/2000" town="Saint Cannat (13)" text="Etudiant chez Ynov Campus en seconde année de bachelor informatique, le dévelopement web est plus qu'un passe-temps : c'est une passion. Et j'aimerais faire de cette dernière mon métier."/>
-            </div>
-            <div className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 mt-3 d-flex flex-row align-items-center justify-content-center p-2">
-              <Card title="Mon parcours :" ynov xp="2" code xpCode="3.5"/>
-            </div>
+      <div className="headerContentBody col-12">
+        <div className="headerContentContainer col-12 d-flex flex-row align-items-center justify-content-center">
+          <div className="d-flex flex-row align-items-center">
+            <img className="headerContentLogo" src={collabLogo} alt="Enzo Avagliano's logo"/>
+            <div className="headerContentSeparator ml-3 mr-3"></div>
+          </div>
+          <div className="d-flex flex-column">
+            <h1 className="headerContentTitle">Blog Ynov 2020</h1>
+            <p className="headerContentSubtitle">Scrollez pour commencer</p>
           </div>
         </div>
       </div>

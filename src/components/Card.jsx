@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function Card(props){
 
@@ -7,15 +7,16 @@ function Card(props){
       backgroundColor: "white",
       padding: "5px",
       borderRadius: "10px",
-      // color: "white",
       border: "3px solid #9146FF",
     },
   }
 
   let stylesLittle = {
     card: {
-      // backgroundColor: "#9146FF",
-      // color: "white",
+      backgroundColor: "white",
+      padding: "5px",
+      borderRadius: "10px",
+      border: "3px solid #9146FF",
     },
   }
 
