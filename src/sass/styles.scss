@@ -27,13 +27,20 @@
   }
 }
 
+.b-dark{
+  background-color: $black;
+  color: $white;
+}
+
 #stage{
   height: 100vh;
-
-  .b-dark{
-    background-color: $black;
-    color: $white;
+  .logoCard{
+    max-width: 15vh;
   }
+}
+
+#stageblinxon{
+  height: 100vh;
 }
 
 @media screen and (max-width: 992px){
@@ -51,9 +58,5 @@
   }
   .headerContentLogo{
     max-height: 5vh !important;
-  }
-
-  #stage{
-    height: 180vh !important;
   }
 }

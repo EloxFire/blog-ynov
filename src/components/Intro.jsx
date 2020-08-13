@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import '../sass/styles.scss';
 
 import Card from './Card.jsx';
-import blinxonLogo from "../img/LOGO-BLINXON.png";
-import montopotoLogo from '../img/logo-montopoto.png';
 import collabLogo from '../img/collab.png';
 
 

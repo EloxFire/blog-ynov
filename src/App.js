@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import Stages from './components/Stages';
+import StageBlinxon from './components/stages/StageBlinxon';
 
 function App() {
   return(
@@ -18,6 +19,7 @@ function App() {
             <div>
               <Intro/>
               <Stages/>
+              <StageBlinxon/>
             </div>
           }/>
 
@@ -25,6 +27,7 @@ function App() {
             <div>
               <Intro/>
               <Stages/>
+              <StageBlinxon/>
             </div>
           }/>
 
