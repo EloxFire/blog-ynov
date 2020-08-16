@@ -1,29 +1,20 @@
 @import "./vars.scss";
 
-.headerContentBody{
-  height: auto;
-  background-color: $black;
+#landing{
+  height: 94vh;
   background-image: url("../img/stars.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: $white;
 
-  .headerContentTitle{
-    font-family: Ubuntu;
-    text-transform: uppercase;
-  }
-  .headerContentLogo{
-    max-height: 10vh;
-  }
-  .headerContentSeparator{
-    width: 2px;
-    height: 13vh;
-    background-color: $white;
+  .landing-logo{
+    max-width: 15vw;
   }
 
-  .headerContentContainer{
-    height: 94vh;
+  .landing-separator{
+    width: 2px;
+    background-color: $white;
   }
 }
 
@@ -32,31 +23,34 @@
   color: $white;
 }
 
-#stage{
-  height: 100vh;
-  .logoCard{
-    max-width: 15vh;
-  }
+#profil{
+  height: 50vh;
+  background-color: $violet;
+  // color: $white;
+  padding: 60px;
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }
 
-#stageblinxon{
-  height: 100vh;
-}
 
 @media screen and (max-width: 992px){
-  .headerContentTitle{
-    font-size: 2em;
+  .landing-logo-container{
+    display: flex;
+    flex: column;
+    justify-content: center;
+
+    .landing-logo{
+      width: 100vw;
+    }
   }
-  .headerContentContainer{
-    display: flex !important;
-    flex-direction: column !important;
-    text-align: center !important;
+
+  .job-card{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px !important;
   }
-  .headerContentSeparator{
-    width: 50vw !important;
-    height: 1px !important;
-  }
-  .headerContentLogo{
-    max-height: 5vh !important;
+
+  #profil{
+    height: auto !important;
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
   }
 }

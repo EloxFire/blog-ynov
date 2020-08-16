@@ -2,8 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import Intro from './components/Intro';
-import Stages from './components/Stages';
+import Content from './components/Content';
 import StageBlinxon from './components/stages/StageBlinxon';
 
 function App() {
@@ -16,18 +15,14 @@ function App() {
         {/*In routes*/}
         <Switch>
           <Route path="/" exact component={props =>
-            <div>
-              <Intro/>
-              <Stages/>
-              <StageBlinxon/>
+            <div className="d-flex flex-column">
+              <Content/>
             </div>
           }/>
 
           <Route path="/accueil" component={props =>
-            <div>
-              <Intro/>
-              <Stages/>
-              <StageBlinxon/>
+            <div className="d-flex flex-column">
+              <Content/>
             </div>
           }/>
 
