@@ -65,29 +65,36 @@ class Intro extends Component{
           <div className="col-12 col-lg-4 p-2">
             <h3>À propos de moi :</h3>
             <hr/>
-            <p className="card-text">Je m'appelle Enzo Avagliano, je suis en seconde année de bachelor informatique sur le campus Ynov Aix-en-Provence.</p>
-            <p>Je code depuis près de 4 ans maintenant. J'ai découvert l'univers du développement grâce aux jeux vidéos et notement "Minecraft", jeu sur lequel je développais mes propres plugins en Java.</p>
-            <p>Maintenant le développement est une passion et je souhaite me spécialiser en tant que développeur web Front-end.</p>
+            <div className="d-flex flex-column justify-content-center">
+              <p className="card-text">Je m'appelle Enzo Avagliano, je suis en seconde année de bachelor informatique sur le campus Ynov Aix-en-Provence.</p>
+              <p>Je code depuis près de 4 ans maintenant. J'ai découvert l'univers du développement grâce aux jeux vidéos et notement "Minecraft", jeu sur lequel je développais mes propres plugins en Java.</p>
+              <p>Maintenant le développement est une passion et je souhaite me spécialiser en tant que développeur web Front-end.</p>
+            </div>
           </div>
           <div className="col-12 col-lg-4 p-2">
             <h3>Mes compétences : </h3>
             <hr/>
-            <p>Depuis mon entrée à Ynov, certaines technologies m'ont beacoup inspirées et certaines autres sont devenues mes outils du quotidien, voilà un apperçu de ce que j'utilise pour travailler :</p>
-            <div className="d-flex flex-wrap justify-content-center align-items-center">
-              <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={htmlLogo} alt="HTML 5 Logo"/>HTML 5</p>
-              <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={reactLogo} alt="ReactJS Logo"/>ReactJS</p>
-              <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={bootstrapLogo} alt="Boostrap Logo"/>Bootstrap</p>
-              <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={sassLogo} alt="Sass Logo"/>Sass</p>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <p>Depuis mon entrée à Ynov, certaines technologies m'ont beacoup inspirées et certaines autres sont devenues mes outils du quotidien, voilà un apperçu de ce que j'utilise pour travailler chaque jour :</p>
+              <div className="d-flex flex-wrap justify-content-center align-items-center">
+                <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={htmlLogo} alt="HTML 5 Logo"/>HTML 5</p>
+                <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={reactLogo} alt="ReactJS Logo"/>ReactJS</p>
+                <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={bootstrapLogo} alt="Boostrap Logo"/>Bootstrap</p>
+                <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={sassLogo} alt="Sass Logo"/>Sass</p>
+              </div>
             </div>
           </div>
           <div className="col-12 col-lg-4 p-2">
             <h3>Mes informations :</h3>
-            <p>Voici quelques informations et liens utiles pour me contacter :</p>
-            <div className="d-flex flex-wrap justify-content-center align-items-center">
-              <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="mailto:enzo.avagliano@ynov.com"><img style={{maxWidth:"30px",marginRight:"5px"}} src={mailLogo} alt="Mail logo"/>enzo.avagliano@ynov.com</a></p>
-              <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="#profil"><img style={{maxWidth:"30px",marginRight:"5px"}} src={phoneLogo} alt="Telephone logo"/>06.69.07.42.59</a></p>
-              <p className="m-3"><a style={{color:"black",textDecoration:"none"}} download href={cvDownload}><img style={{maxWidth:"30px",marginRight:"5px"}} src={cvLogo} alt="CV Logo"/>Mon CV (PDF)</a></p>
-              <p className="m-3"><a style={{color:"black",textDecoration:"none"}} target="_blank" href="https://www.linkedin.com/in/enzo-avagliano/"><img style={{maxWidth:"30px",marginRight:"5px"}} src={linkedinLogo} alt="Linkedin Logo"/>Linkedin</a></p>
+            <hr/>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+              <p>Voici quelques informations et liens utiles pour me contacter :</p>
+              <div className="d-flex flex-wrap justify-content-center align-items-center">
+                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="mailto:enzo.avagliano@ynov.com"><img style={{maxWidth:"30px",marginRight:"5px"}} src={mailLogo} alt="Mail logo"/>enzo.avagliano@ynov.com</a></p>
+                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="#profil"><img style={{maxWidth:"30px",marginRight:"5px"}} src={phoneLogo} alt="Telephone logo"/>06.69.07.42.59</a></p>
+                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} download href={cvDownload}><img style={{maxWidth:"30px",marginRight:"5px"}} src={cvLogo} alt="CV Logo"/>Mon CV (PDF)</a></p>
+                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} target="_blank" href="https://www.linkedin.com/in/enzo-avagliano/"><img style={{maxWidth:"30px",marginRight:"5px"}} src={linkedinLogo} alt="Linkedin Logo"/>Linkedin</a></p>
+              </div>
             </div>
           </div>
         </div>

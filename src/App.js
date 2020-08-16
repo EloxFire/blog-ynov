@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
 import StageBlinxon from './components/stages/StageBlinxon';
+import Footer from './components/Footer';
 
 function App() {
   return(
@@ -38,6 +39,7 @@ function App() {
         </Switch>
 
         {/*Alaways on bottom*/}
+        <Footer/>
       </div>
     </Router>
   )
