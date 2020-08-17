@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import StageInfos from '../StageInfos';
+import ArticleCard from '../ArticleCard';
 import '../../sass/styles.scss';
 import blinxonLogo from '../../img/logos-entreprises/blinxon.png';
 
@@ -29,7 +30,7 @@ class StageBlinxon extends Component{
                   </ul>
                 </li>
 
-                <li className="mb-2"><a href="" className="blog-link">Les problèmes</a></li>
+                <li className="mb-2"><a href="#problemes" className="blog-link">Les problèmes</a></li>
 
                 <li><a href="" className="blog-link">Conclusion</a></li>
                 <li className="mb-2" style={{listStyleType:"none"}}>
@@ -39,11 +40,20 @@ class StageBlinxon extends Component{
                   </ul>
                 </li>
               </ul>
+              <hr/>
+              <a href="#articles">Acceder aux articles</a>
+              <hr/>
+              <p>Derniers articles :</p>
+              <ul>
+                <li><a href="">Installation de ReactJS</a></li>
+                <li><a href="">Barre de navigation</a></li>
+              </ul>
+              <hr/>
             </div>
           </div>
 
           {/*CONTENU DU RAPPORT DE STAGE*/}
-          <div className="col-9 p-5">
+          <div className="col-lg-9 col-12 p-5">
             <h3>Stage bénévole en association - Blinxon</h3>
             <p>Blinxon est une association qui à pour but de participer au mytique raid humanitaire '4L Trophy' en février 2021.</p>
             <hr/>
@@ -72,6 +82,25 @@ class StageBlinxon extends Component{
                 <li>Un panel de réseaux sociaux (Instagram, Twitter, Facebook), sur lesquels ils postent régulièrement les dernières informations sur leur préparation pour l'aventure.</li>
               </ul>
               <p>Toutes des solutions sont utiles à leur manière, mais l'association à besoin de plus de visibilité et d'un endroit capable de rassembler toutes leurs information, contacts, posts, nouvelles en un seul point. Et cette dernière solution est toute trouvé : <strong>Un site web</strong></p>
+            </div>
+
+            {/*Troisième bloc*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="besoins">Ma mission</h3>
+              <p>La mission qui m'est confiée est donc relativement simple. Concevoir et développer un site web responsive, moderne, aux couleurs de Blinxon et qui soit assez ergonomique afin d'y placer toutes les informations nécéssaires pour augmenter les chances des les membres de l'association dans leur recherche de fonds financers.</p>
+              <p>Vous pourrez découvir le déroulement de tout le projet dans les articles qui suivent cette introduction.</p>
+            </div>
+
+            {/*Articles*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="besoins">Articles</h3>
+              <p>Cette section vous permet d'accéder aux différents articles que j'ai réalisé et qui décrivent le processus de développement et d'avancement de ma mission.</p>
+              <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
+                <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png"/>
+                <ArticleCard section="Coding" title="Barre de navigation" image="navbar-coding.png"/>
+              </div>
             </div>
           </div>
         </div>
