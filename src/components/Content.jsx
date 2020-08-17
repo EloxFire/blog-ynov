@@ -36,7 +36,7 @@ class Intro extends Component{
 
       {/*INTRO DES STAGES x EXPLICATION CONTEXTE*/}
         <div id="stages" className="d-flex flex-column flex-xs-column flex-sm-column flex-md-column flex-lg-row">
-          <div style={{height:"100vh"}} className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 p-lg-4 d-flex flex-column justify-content-around">
+          <div style={{height:"90vh"}} className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 p-lg-4 d-flex flex-column justify-content-around">
             <div className="mb-5">
               <h2>Stage de validation ?</h2>
               <hr style={{backgroundColor:"#9146FF"}}/>
@@ -55,7 +55,7 @@ class Intro extends Component{
               <p className="card-text">Ce blog est un reccueil de mes différentes expériences de stage durant mon parcours chez Ynov, mais il servent aussi à vous montrer mes compétences et ce que je suis capable de faire en milieu prfessionnel. Vous pouvez acceder aux différents articles de stages ci-après.</p>
             </div>
           </div>
-          <div style={{height:"100vh"}} className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 p-lg-4 d-flex flex-wrap justify-content-center align-items-center">
+          <div style={{height:"90vh"}} className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 p-lg-4 d-flex flex-wrap justify-content-center align-items-center">
             <JobCard company="montopoto" year="2019" small="Archive bientôt disponible"/>
             <JobCard company="blinxon" year="2020" small="Stage bénévole en association"/>
           </div>

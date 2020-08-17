@@ -27,6 +27,16 @@ function App() {
             </div>
           }/>
 
+          <Route path='/messtages' component={() => {
+            window.location.href = '/accueil#stages';
+            return null;
+          }}/>
+
+          <Route path='/monprofil' component={() => {
+            window.location.href = '/accueil#profil';
+            return null;
+          }}/>
+
           <Route path='/contact' component={() => {
             window.location.href = 'https://enzoavagliano.fr/contact';
             return null;
@@ -36,6 +46,12 @@ function App() {
             window.location.href = 'https://enzoavagliano.fr';
             return null;
           }}/>
+
+          <Route path="/stageblinxon" component={props =>
+            <div>
+              <StageBlinxon/>
+            </div>
+          }/>
         </Switch>
 
         {/*Alaways on bottom*/}
