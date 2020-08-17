@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Content from './components/Content';
 import StageBlinxon from './components/stages/StageBlinxon';
+import ReactSetup from './components/stages/articles/ReactSetup';
 import Footer from './components/Footer';
 
 function App() {
@@ -50,6 +51,12 @@ function App() {
           <Route path="/stageblinxon" component={props =>
             <div>
               <StageBlinxon/>
+            </div>
+          }/>
+
+          <Route path="/article/reactsetup" component={props =>
+            <div>
+              <ReactSetup/>
             </div>
           }/>
         </Switch>

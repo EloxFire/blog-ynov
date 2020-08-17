@@ -1,4 +1,5 @@
 import React from 'react';
+import Timestamp from 'react-timestamp';
 
 function ArticleCard(props){
 
@@ -25,8 +26,9 @@ function ArticleCard(props){
       <div style={{height:"50%"}} className="p-3 d-flex flex-column">
         <span>{props.section}</span>
         <span>{props.title}</span>
-        <div style={{height:"1px",backgroundColor:"rgba(0, 0, 0, 0.1)"}}></div>
-        <p className="align-text-bottom">test</p>
+        <div style={{height:"1px",backgroundColor:"rgba(0, 0, 0, 0.1)"}} className="mb-4"></div>
+        <a style={{color:"#9146FF",fontWeight:"bold"}} href={`/article/${props.link}`}>Accéder à l'article.</a>
+        <span style={{fontWeight:"normal",textTransform:"lowercase"}} className="align-self-end"><Timestamp relative autoUpdate date={props.write_date}/></span>
       </div>
     </div>
   )
