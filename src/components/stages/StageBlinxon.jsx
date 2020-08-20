@@ -95,7 +95,7 @@ class StageBlinxon extends Component{
               <p>Cette section vous permet d'accéder aux différents articles que j'ai réalisé et qui décrivent le processus de développement et d'avancement de ma mission.</p>
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
                 <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="reactsetup"/>
-                <ArticleCard section="Coding" title="Barre de navigation" image="navbar-coding.png" write_date="1596045401" link="navbar"/>
+                <ArticleCard section="Coding" title="Barre de navigation" image="navbar-coding.png" write_date="1595960936" link="navbar"/>
                 <ArticleCard section="Coding" title="Compte à rebours" image="timer.png" write_date="1596045401" link="timer"/>
               </div>
             </div>

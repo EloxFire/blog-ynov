@@ -69,7 +69,25 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="detail">Détail de la solution</h3>
-              <p>Après avoir choisi d'utiliser une barre de navigation fixe, collée en haut de page, il me fallait déterminer quels liens et quel contenu mettre à l'intérieur.</p>
+              <p>Après avoir choisi d'utiliser une barre de navigation fixe, collée en haut de page, il me fallait déterminer quels liens et quel contenu mettre à l'intérieur fin de pouvoir les prioriser et savoir l'ordre des liens.</p>
+              <p>Ce travail fût assez simple, le projet de participation au 4L Trophy, qu'ambitionne l'association Blinxon se divise très simplement en grandes partie. Ces dernères sont les suivantes :</p>
+              <ul>
+                <li>Présentation de l'equipage</li>
+                <li>Qu'est ce que le 4l Trophy</li>
+                <li>Qui est 'Enfants du désert' (L'association partenaire du raid)</li>
+                <li>Comment aider l'équipage (en tant qu'entreprise ou particulier)</li>
+                <li>Les réseaux sociaux de l'équipage</li>
+              </ul>
+              <p>Une fois ces différentes parties vues et validées par ma tutrice de stage, j'ai pu commencer mon développement. J'ai d'abbord commencé par chercher des mots clés, rapide et efficaces qui rentrent dans une barre de navigation et qui soient explicites sur le contenu que l'utilisateur verra.</p>
+              <p>J'ai donc fini avec ces différents liens :</p>
+              <ul>
+                <li><strong>"Accueil"</strong> : Retour à la landing page du site.</li>
+                <li><strong>"L'équipage"</strong> : Section de présentation de l'équipage</li>
+                <li><strong>"Le Raid"</strong> : Section de présentation du 4L Trophy</li>
+                <li><strong>"Enfants du désert"</strong> : Section de présentation de l'association partenaire</li>
+                <li><strong>"Nous aider"</strong> : Section de présentation des moyens pour aider l'association dans leur aventure.</li>
+                <li><strong>"Nos réseaux"</strong> : Section contenant tous les liens externes qui ramenent vers les différents réseaux sociaux de l'association.</li>
+              </ul>
             </div>
 
             {/*Troisième bloc : react-router-dom*/}
