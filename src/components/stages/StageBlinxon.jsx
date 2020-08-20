@@ -15,28 +15,24 @@ class StageBlinxon extends Component{
               <h4>Table des matières</h4>
               <hr/>
               <ul>
-                <li><a href="" className="blog-link">L'association</a></li>
+                <li><a href="#association" className="blog-link">L'association</a></li>
                 <li className="mb-2" style={{listStyleType:"none"}}>
                   <ul>
-                    <li><a href="#but" className="blog-link">But</a></li>
-                    <li><a href="#besoins" className="blog-link">Besoins</a></li>
+                    <li><a href="#association" className="blog-link">Besoins</a></li>
                   </ul>
                 </li>
 
-                <li><a href="" className="blog-link">La misison</a></li>
-                <li className="mb-2" style={{listStyleType:"none"}}>
-                  <ul>
-                    <li><a href="" className="blog-link">Modalités</a></li>
-                  </ul>
-                </li>
+                <li className="mb-2"><a href="#misison" className="blog-link">Ma missison</a></li>
+
+                <li className="mb-2"><a href="#articles" className="blog-link">Articles de mission</a></li>
 
                 <li className="mb-2"><a href="#problemes" className="blog-link">Les problèmes</a></li>
 
-                <li><a href="" className="blog-link">Conclusion</a></li>
+                <li><a href="#conclusion" className="blog-link">Conclusion</a></li>
                 <li className="mb-2" style={{listStyleType:"none"}}>
                   <ul>
-                    <li><a href="" className="blog-link">Mon retour</a></li>
-                    <li><a href="" className="blog-link">Améliorations</a></li>
+                    <li><a href="#conclusion" className="blog-link">Mon retour</a></li>
+                    <li><a href="#conclusion" className="blog-link">Améliorations</a></li>
                   </ul>
                 </li>
               </ul>
@@ -62,16 +58,16 @@ class StageBlinxon extends Component{
               <p>Logo de l'association</p>
             </div>
 
-            {/*Premier bloc*/}
+            {/*Premier bloc : L'association*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="but">L'association</h3>
+              <h3 id="association">L'association</h3>
               <p>Blinxon à été fondée le 15 mars 2020 avec un but en tête : participer au <u><a style={{textDecoration:"none",color:"black"}} target="_blank" href="https://www.4ltrophy.com">4L Trophy 2021</a>.</u></p>
               <p>C'est un défi un peu foub, mais qui en vaut la peine ! Un raid humanitaire réservé au jeunes de 18 à 28 ans, partant de Biarritz dans les Pyrénés Atlantiques et avec pour destination Marrakech au Marroc !</p>
               <p>Afin de réaliser ce projet, l'association composée de deux membres : Enzo Avagliano (Président) et Olivia Masson (Trésorière), doit réunir un budget assez conséquent, près de 9000€, afin de couvrir tous les frais nécéssaires, dont l'inscription au raid.</p>
             </div>
 
-            {/*Second bloc*/}
+            {/*Second bloc : Besoins de l'association*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Besoins de l'association</h3>
@@ -84,7 +80,7 @@ class StageBlinxon extends Component{
               <p>Toutes des solutions sont utiles à leur manière, mais l'association à besoin de plus de visibilité et d'un endroit capable de rassembler toutes leurs information, contacts, posts, nouvelles en un seul point. Et cette dernière solution est toute trouvé : <strong>Un site web</strong></p>
             </div>
 
-            {/*Troisième bloc*/}
+            {/*Troisième bloc : Ma mission*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Ma mission</h3>
@@ -92,7 +88,7 @@ class StageBlinxon extends Component{
               <p>Vous pourrez découvir le déroulement de tout le projet dans les articles qui suivent cette introduction.</p>
             </div>
 
-            {/*Articles*/}
+            {/*Quatrieme bloc : Articles de mission*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Articles</h3>
@@ -100,7 +96,21 @@ class StageBlinxon extends Component{
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
                 <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="reactsetup"/>
                 <ArticleCard section="Coding" title="Barre de navigation" image="navbar-coding.png" write_date="1596045401" link="navbar"/>
+                <ArticleCard section="Coding" title="Compte à rebours" image="timer.png" write_date="1596045401" link="timer"/>
               </div>
+            </div>
+
+            {/*Cinquieme bloc : Les problèmes rencontrés*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="besoins">Problèmes rencontrés</h3>
+            </div>
+
+            {/*Sixieme bloc : Conclusion*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="besoins">Conclusion</h3>
+              <p>Pour conclure cette section de blog dédiée à mon stage dans l'association Blinxon je dirais...</p>
             </div>
           </div>
         </div>
