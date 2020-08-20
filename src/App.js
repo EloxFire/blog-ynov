@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Content from './components/Content';
 import StageBlinxon from './components/stages/StageBlinxon';
 import ReactSetup from './components/stages/articles/ReactSetup';
+import NavbarArticle from './components/stages/articles/NavbarArticle';
 import Footer from './components/Footer';
 
 function App() {
@@ -57,6 +58,12 @@ function App() {
           <Route path="/article/reactsetup" component={props =>
             <div>
               <ReactSetup/>
+            </div>
+          }/>
+
+          <Route path="/article/navbar" component={props =>
+            <div>
+              <NavbarArticle/>
             </div>
           }/>
         </Switch>

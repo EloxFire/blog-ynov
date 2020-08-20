@@ -37,12 +37,12 @@ class StageBlinxon extends Component{
                 </li>
               </ul>
               <hr/>
-              <a href="#articles">Acceder aux articles</a>
+              <a href="#articles">Accéder aux articles</a>
               <hr/>
-              <p>Derniers articles :</p>
+              <p>Articles en vrac :</p>
               <ul>
-                <li><a href="">Installation de ReactJS</a></li>
-                <li><a href="">Barre de navigation</a></li>
+                <li><a href="/article/reactsetup">Installation de ReactJS</a></li>
+                <li><a href="/article/navbar">Barre de navigation</a></li>
               </ul>
               <hr/>
             </div>
@@ -83,7 +83,7 @@ class StageBlinxon extends Component{
             {/*Troisième bloc : Ma mission*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="besoins">Ma mission</h3>
+              <h3 id="mission">Ma mission</h3>
               <p>La mission qui m'est confiée est donc relativement simple. Concevoir et développer un site web responsive, moderne, aux couleurs de Blinxon et qui soit assez ergonomique afin d'y placer toutes les informations nécéssaires pour augmenter les chances des les membres de l'association dans leur recherche de fonds financers.</p>
               <p>Vous pourrez découvir le déroulement de tout le projet dans les articles qui suivent cette introduction.</p>
             </div>
@@ -91,7 +91,7 @@ class StageBlinxon extends Component{
             {/*Quatrieme bloc : Articles de mission*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="besoins">Articles</h3>
+              <h3 id="articles">Articles</h3>
               <p>Cette section vous permet d'accéder aux différents articles que j'ai réalisé et qui décrivent le processus de développement et d'avancement de ma mission.</p>
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
                 <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="reactsetup"/>
@@ -103,7 +103,7 @@ class StageBlinxon extends Component{
             {/*Cinquieme bloc : Les problèmes rencontrés*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="besoins">Problèmes rencontrés</h3>
+              <h3 id="problemes">Problèmes rencontrés</h3>
             </div>
 
             {/*Sixieme bloc : Conclusion*/}

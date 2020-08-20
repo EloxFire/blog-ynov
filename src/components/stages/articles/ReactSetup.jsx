@@ -35,13 +35,9 @@ class ReactSetup extends Component{
                 <li><a href="#conclusion" className="blog-link">Conclusion</a></li>
               </ul>
               <hr/>
-              <a href="/accueil">Retour à l'accueil</a>
+              <a href="/stageblinxon#articles">Retour aux articles</a>
               <hr/>
-              <p>Articles en vrac :</p>
-              <ul>
-                <li><a href="">Barre de navigation</a></li>
-                <li><a href="">Compte à rebours</a></li>
-              </ul>
+              <a href="/accueil">Retour à l'accueil</a>
               <hr/>
             </div>
           </div>
