@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import StageInfos from '../StageInfos';
 import ArticleCard from '../ArticleCard';
 import '../../sass/styles.scss';
 import blinxonLogo from '../../img/logos-entreprises/blinxon.png';
@@ -62,7 +61,7 @@ class StageBlinxon extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="association">L'association</h3>
-              <p>Blinxon à été fondée le 15 mars 2020 avec un but en tête : participer au <u><a style={{textDecoration:"none",color:"black"}} target="_blank" href="https://www.4ltrophy.com">4L Trophy 2021</a>.</u></p>
+              <p>Blinxon à été fondée le 15 mars 2020 avec un but en tête : participer au <u><a style={{textDecoration:"none",color:"black"}} target="_blank" rel="noopener noreferrer" href="https://www.4ltrophy.com">4L Trophy 2021</a>.</u></p>
               <p>C'est un défi un peu foub, mais qui en vaut la peine ! Un raid humanitaire réservé au jeunes de 18 à 28 ans, partant de Biarritz dans les Pyrénés Atlantiques et avec pour destination Marrakech au Marroc !</p>
               <p>Afin de réaliser ce projet, l'association composée de deux membres : Enzo Avagliano (Président) et Olivia Masson (Trésorière), doit réunir un budget assez conséquent, près de 9000€, afin de couvrir tous les frais nécéssaires, dont l'inscription au raid.</p>
             </div>

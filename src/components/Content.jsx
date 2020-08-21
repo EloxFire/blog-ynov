@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../sass/styles.scss';
 
-import Card from './Card.jsx';
 import JobCard from './JobCard';
 
 import collabLogo from '../img/collab.png';
@@ -93,7 +92,7 @@ class Intro extends Component{
                 <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="mailto:enzo.avagliano@ynov.com"><img style={{maxWidth:"30px",marginRight:"5px"}} src={mailLogo} alt="Mail logo"/>enzo.avagliano@ynov.com</a></p>
                 <p className="m-3"><a style={{color:"black",textDecoration:"none"}} href="#profil"><img style={{maxWidth:"30px",marginRight:"5px"}} src={phoneLogo} alt="Telephone logo"/>06.69.07.42.59</a></p>
                 <p className="m-3"><a style={{color:"black",textDecoration:"none"}} download href={cvDownload}><img style={{maxWidth:"30px",marginRight:"5px"}} src={cvLogo} alt="CV Logo"/>Mon CV (PDF)</a></p>
-                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} target="_blank" href="https://www.linkedin.com/in/enzo-avagliano/"><img style={{maxWidth:"30px",marginRight:"5px"}} src={linkedinLogo} alt="Linkedin Logo"/>Linkedin</a></p>
+                <p className="m-3"><a style={{color:"black",textDecoration:"none"}} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/enzo-avagliano/"><img style={{maxWidth:"30px",marginRight:"5px"}} src={linkedinLogo} alt="Linkedin Logo"/>Linkedin</a></p>
               </div>
             </div>
           </div>

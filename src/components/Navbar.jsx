@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import '../sass/navbar.scss';
 import logoEA from '../img/ea.svg';
