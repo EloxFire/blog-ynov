@@ -31,7 +31,7 @@ function App() {
 
           <Route path='/messtages' component={() => {
             window.location.href = '/accueil#stages';
-            return null;
+            return false;
           }}/>
 
           <Route path='/monprofil' component={() => {
