@@ -88,27 +88,26 @@ class NavbarArticle extends Component{
                 <li><strong>"Nous aider"</strong> : Section de présentation des moyens pour aider l'association dans leur aventure.</li>
                 <li><strong>"Nos réseaux"</strong> : Section contenant tous les liens externes qui ramenent vers les différents réseaux sociaux de l'association.</li>
               </ul>
+
+              <p>Dans la prochaine section de cet article nous passerons en revue la structure générale et les éléments importants du code de cette fameuse barre de navigation. Nous introduirons aussi un paquet npm nommé <span className="overlined">react-router-dom</span>.</p>
             </div>
 
             {/*Troisième bloc : react-router-dom*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="react-router-dom">react-router-dom</h3>
-              <p>[Insérer texte]</p>
             </div>
 
             {/*Quatrième bloc : Problèmes rencontrés*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="problemes">Problèmes rencontrés</h3>
-              <p>[Insérer texte]</p>
             </div>
 
             {/*Cinquième bloc : Conclusion*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="conclusion">Conclusion</h3>
-              <p>[Insérer texte]</p>
             </div>
 
 

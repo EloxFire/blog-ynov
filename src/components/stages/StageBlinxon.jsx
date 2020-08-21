@@ -96,7 +96,6 @@ class StageBlinxon extends Component{
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
                 <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="reactsetup"/>
                 <ArticleCard section="Coding" title="Barre de navigation" image="navbar-coding.png" write_date="1595960936" link="navbar"/>
-                <ArticleCard section="Coding" title="Compte à rebours" image="timer.png" write_date="1596045401" link="timer"/>
               </div>
             </div>
 
@@ -110,7 +109,6 @@ class StageBlinxon extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Conclusion</h3>
-              <p>Pour conclure cette section de blog dédiée à mon stage dans l'association Blinxon je dirais...</p>
             </div>
           </div>
         </div>
