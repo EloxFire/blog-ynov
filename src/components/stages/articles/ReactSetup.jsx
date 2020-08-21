@@ -55,7 +55,7 @@ class ReactSetup extends Component{
             {/*Premier bloc*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="but">ReactJS, c'est quoi ?</h3>
+              <h3 id="react">ReactJS, c'est quoi ?</h3>
               <p>React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. <br/>Le but principal de cette bibliothèque est de faciliter la création d'applications web, via la création de composants dépendant d'un état et générant une page (ou portion de page) HTML à chaque changement d'état.</p>
               <div className="p-4">
                 <div className="mb-5">
