@@ -108,10 +108,11 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="flux">Flux de navigation sur le site</h3>
-              <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquants les possibilités de navigation : </p>
+              <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquants les possibilités de navigation.</p>
               <div className="col-12 d-flex flex-row justify-content-center">
                 <img style={{maxWidth:"100%",maxHeight:"80vh"}} src={fluxNavigation} alt="Flux de navigation du site"/>
               </div>
+              <p className="mt-3">Comme vous pouvez le voir, nous pouvons accéder à toutes les pages du site à partir de n'importe quelle page. Tout est accessible à tout moment.</p>
             </div>
 
             {/*Quatrième bloc : react-router-dom*/}
