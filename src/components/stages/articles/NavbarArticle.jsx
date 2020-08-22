@@ -11,6 +11,7 @@ import reactRouterDomSwitchExemple from '../../../img/images-articles/navbar/rea
 import navbarCode from '../../../img/images-articles/navbar/navbarcode.png';
 import navbarUse from '../../../img/images-articles/navbar/navbaruse.png';
 import timerIssueFont from '../../../img/images-articles/navbar/timer-font-props-issue.png';
+import fluxNavigation from '../../../img/images-articles/navbar/fluxArrows.png';
 
 class NavbarArticle extends Component{
   render(){
@@ -106,8 +107,11 @@ class NavbarArticle extends Component{
             {/*Troisième bloc : Flux de navigation*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="detail">Flux de navigation sur le site</h3>
+              <h3 id="flux">Flux de navigation sur le site</h3>
               <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquants les possibilités de navigation : </p>
+              <div className="col-12 d-flex flex-row justify-content-center">
+                <img style={{maxWidth:"100%",maxHeight:"80vh"}} src={fluxNavigation} alt="Flux de navigation du site"/>
+              </div>
             </div>
 
             {/*Quatrième bloc : react-router-dom*/}
