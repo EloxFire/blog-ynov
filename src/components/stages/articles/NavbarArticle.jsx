@@ -10,6 +10,7 @@ import reactRouterDomRouteExempleWithComponent from '../../../img/images-article
 import reactRouterDomSwitchExemple from '../../../img/images-articles/navbar/react-router-dom-switch-exemple.png';
 import navbarCode from '../../../img/images-articles/navbar/navbarcode.png';
 import navbarUse from '../../../img/images-articles/navbar/navbaruse.png';
+import timerIssueFont from '../../../img/images-articles/navbar/timer-font-props-issue.png';
 
 class NavbarArticle extends Component{
   render(){
@@ -30,6 +31,8 @@ class NavbarArticle extends Component{
 
                 <li className="mb-2"><a href="#detail" className="blog-link">Détail de la solution</a></li>
 
+                <li className="mb-2"><a href="#flux" className="blog-link">Flux de navigation</a></li>
+
                 <li className="mb-2"><a href="#react-router-dom" className="blog-link">react-router-dom</a></li>
 
                 <li className="mb-2"><a href="#moncode" className="blog-link">Mon code</a></li>
@@ -48,7 +51,7 @@ class NavbarArticle extends Component{
 
           {/*CONTENU DU RAPPORT DE STAGE*/}
           <div className="col-lg-9 col-12 p-5">
-            <h3>Article de création : Barre de navigation.</h3>
+            <h3>Article : Navigation sur le site Blinxon</h3>
             <p>Une barre de navigation est obligatoire si nous concevons un site contenant plusieurs pages. Les utilisateur doivent pouvoir naviger aisément sur notre site. Cet article va vous detailler la conception de la barre de navigation pour le site de l'association Blinxon.</p>
             <hr/>
             <div className="col-12 text-center mb-5">
@@ -73,7 +76,7 @@ class NavbarArticle extends Component{
               </div>
             </div>
 
-            {/*Second bloc : Choix du tyoe de barre de navigation*/}
+            {/*Second bloc : Détail de la solution*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="detail">Détail de la solution</h3>
@@ -100,7 +103,14 @@ class NavbarArticle extends Component{
               <p>Dans la prochaine section de cet article nous passerons en revue la structure générale et les éléments importants du code de cette fameuse barre de navigation. Nous introduirons aussi un paquet npm nommé <span className="overlined"><a style={{color:"black"}} rel="noopener noreferrer" target="_blank" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span>.</p>
             </div>
 
-            {/*Troisième bloc : react-router-dom*/}
+            {/*Troisième bloc : Flux de navigation*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="detail">Flux de navigation sur le site</h3>
+              <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquants les possibilités de navigation : </p>
+            </div>
+
+            {/*Quatrième bloc : react-router-dom*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="react-router-dom">react-router-dom</h3>
@@ -113,21 +123,21 @@ class NavbarArticle extends Component{
                 <h5>À savoir :</h5>
                 <p>La norme HTML5 apporte une API permettant la manipulation de l’historique du navigateur : l’API history. L’interface <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/fr/docs/Web/API/Window/history">window.history</a></span> permet de manipuler l’historique et de réécrire les URL sans déclencher le chargement de celle-ci sur le serveur.</p>
                 <h5 className="mt-5">BrowserRouter</h5>
-                <p>L'élément BrowserRouter profite de l'API History et surcharge cette fameuse interface <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/fr/docs/Web/API/Window/history">window.history</a></span> afin de rendre possible l'association de routes à des composants React.</p>
-                <h5>Route</h5>
-                <p>L'élément Route est l'élément principal de <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span>. On utilise Route dès lors qu'un composant doit être rendu en fonction d'une certaine route.</p>
+                <p>L'élément <code>&#60;BrowserRouter/&#62;</code> profite de l'API History et surcharge cette fameuse interface <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/fr/docs/Web/API/Window/history">window.history</a></span> afin de rendre possible l'association de routes à des composants React.</p>
+                <h5 className="mt-5">Route</h5>
+                <p>L'élément <code>&#60;Route/&#62;</code> est l'élément principal de <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span>. On utilise Route dès lors qu'un composant doit être rendu en fonction d'une certaine route.</p>
                 <p>Par exemple :</p>
                 <img style={{maxWidth:"100%"}} src={reactRouterDomRouteExemple} alt="Exemple d'utilisation de l'élément Route"/>
-                <p className="mt-2">Route avec rendu d'un composant :</p>
+                <p className="mt-3">Route avec rendu d'un composant :</p>
                 <img style={{maxWidth:"100%"}} src={reactRouterDomRouteExempleWithComponent} alt="Exemple d'utilisation de l'élément Route avec rendu d'un composant"/>
                 <h5 className="mt-5">Switch</h5>
-                <p>L'élément Switch permet simplement de définir plusieurs Routes.</p>
+                <p>L'élément <code>&#60;Switch/&#62;</code> permet simplement de définir plusieurs Routes.</p>
                 <p>Par exemple :</p>
                 <img style={{maxWidth:"100%"}} src={reactRouterDomSwitchExemple} alt="Exemple d'utilisation de l'élément Switch"/>
               </div>
             </div>
 
-            {/*Quatrième bloc : Mon code*/}
+            {/*Cinquieme bloc : Mon code*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="moncode">Mon code</h3>
@@ -147,23 +157,26 @@ class NavbarArticle extends Component{
               <img style={{maxWidth:"100%"}} src={navbarCode} alt="Code source de la barre de navigation du site Blinxon"/>
 
               <p className="mt-5">Comme je l'ai dis plus haut, j'ai fais de cette barre de navigation un composant React, qui de fait est utilisé comme suit dans notre fichier <code>App.js</code> avec les éléments de notre extention <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> :</p>
-              <p>Vous pouvez donc voir toutes les routes utilisée.</p>
+              <p>Par la même occasion, vous pouvez voir comment j'ai défini mes différentes routes avec l'élément <code>&#60;Route/&#62;</code> présenté précédement. Certaines routes de renvoient pas de composants car à l'heure ou j'écris cet article, le site n'est pas encore terminé.</p>
               <img style={{maxWidth:"100%"}} src={navbarUse} alt="Code d'utilisation de la barre de navigation dans App.js"/>
             </div>
 
-            {/*Cinquième bloc : Problèmes rencontrés*/}
+            {/*Sixième bloc : Problèmes rencontrés*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="problemes">Problèmes rencontrés</h3>
+              <p>Développer une barre de navigation grâce aux outils que j'ai utilisé peut s'avérer plutôt simple, mais nous ne sommes tout de même pas à l'abris des problèmes et des contre-temps. Je n'ai pas rencontré de soucis majeurs mais la partie responsive s'est montrée plus complexe qu'initialement prévue. <br/>La disposition des éléments n'était pas optimale et créais des débordements sur les bords de l'ecran en version mobile, ce qui à eu pour effet de laisser la possibilité à l'utilisateur de 'scroller' vers la droite en direction d'une partie de page blanche qui n'avait rien à faire ici.</p>
+              <p>Le problème venait de mon composant compte à rebours qui n'était pas adapté pour rentrer dans un espace si restreint. J'ai donc réglé le soucis en donnant à ce fameux composant des propriétés de taille de texte, ce qui le rends désormais personnalisable à souhait en termes de taille.</p>
+              <img style={{maxWidth:"100%"}} src={timerIssueFont} alt="Composant compte à rebours et sa propriété"/>
+              <p className="mt-3">Le reste de la barre de navigation n'as pas posé de soucis, c'était un exercice plutôt basique et sans trop de difficultés.</p>
             </div>
 
-            {/*Sixième bloc : Conclusion*/}
+            {/*Septième bloc : Conclusion*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="conclusion">Conclusion</h3>
+              <p>Pour conclure cet article, je retiendrais que les barres de navigation, bien que des éléments communs et indissociables des sites web, sont la clé vers la création d'un site agréable à utiliser. Il ne faut pas les négliger et surtout réussir à faire en sorte qu'elle soit le plus compréhensible et 'user-friendly' possible.</p>
             </div>
-
-
           </div>
         </div>
       </div>
