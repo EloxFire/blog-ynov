@@ -20,13 +20,9 @@ class StageBlinxon extends Component{
                     <li><a href="#association" className="blog-link">Besoins</a></li>
                   </ul>
                 </li>
-
                 <li className="mb-2"><a href="#misison" className="blog-link">Ma missison</a></li>
-
                 <li className="mb-2"><a href="#articles" className="blog-link">Articles de mission</a></li>
-
                 <li className="mb-2"><a href="#problemes" className="blog-link">Les problèmes</a></li>
-
                 <li><a href="#conclusion" className="blog-link">Conclusion</a></li>
                 <li className="mb-2" style={{listStyleType:"none"}}>
                   <ul>
@@ -96,11 +92,13 @@ class StageBlinxon extends Component{
                 <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="react-setup"/>
                 <ArticleCard section="Article" title="Processus de création du site" image="creation-process.png" write_date="1595960936" link="processus-de-creation"/>
                 <ArticleCard section="Article" title="Barre de navigation" image="navbar-coding.png" write_date="1595960936" link="barre-de-navigation"/>
+                <ArticleCard section="Article" title="Site en single page ?" image="single-page.png" write_date="1595960936" link="single-page"/>
                 {/*
                   Articles potentiels:
                   Compte à rebours
                   Design
                   Journée de travail type
+                  explication single
                 */}
               </div>
             </div>

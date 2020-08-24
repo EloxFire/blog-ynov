@@ -7,6 +7,7 @@ import StageBlinxon from './components/stages/StageBlinxon';
 import ReactSetup from './components/stages/articles/ReactSetup';
 import NavbarArticle from './components/stages/articles/NavbarArticle';
 import CreationProcess from './components/stages/articles/CreationProcess';
+import SinglePageArticle from './components/stages/articles/SinglePageArticle';
 import Footer from './components/Footer';
 
 function App() {
@@ -71,6 +72,12 @@ function App() {
           <Route path="/article/processus-de-creation" component={props =>
             <div>
               <CreationProcess/>
+            </div>
+          }/>
+
+          <Route path="/article/single-page" component={props =>
+            <div>
+              <SinglePageArticle/>
             </div>
           }/>
         </Switch>
