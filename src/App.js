@@ -6,6 +6,7 @@ import Content from './components/Content';
 import StageBlinxon from './components/stages/StageBlinxon';
 import ReactSetup from './components/stages/articles/ReactSetup';
 import NavbarArticle from './components/stages/articles/NavbarArticle';
+import CreationProcess from './components/stages/articles/CreationProcess';
 import Footer from './components/Footer';
 
 function App() {
@@ -55,15 +56,21 @@ function App() {
             </div>
           }/>
 
-          <Route path="/article/reactsetup" component={props =>
+          <Route path="/article/react-setup" component={props =>
             <div>
               <ReactSetup/>
             </div>
           }/>
 
-          <Route path="/article/navbar" component={props =>
+          <Route path="/article/barre-de-navigation" component={props =>
             <div>
               <NavbarArticle/>
+            </div>
+          }/>
+
+          <Route path="/article/processus-de-creation" component={props =>
+            <div>
+              <CreationProcess/>
             </div>
           }/>
         </Switch>
