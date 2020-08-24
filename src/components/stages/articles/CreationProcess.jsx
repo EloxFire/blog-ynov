@@ -15,7 +15,6 @@ class CreationProcess extends Component{
                 <li className="mb-2"><a href="#environement-dev" className="blog-link">Environement de développement</a></li>
                 <li className="mb-2"><a href="#communication" className="blog-link">Communication</a></li>
                 <li className="mb-2"><a href="#validation" className="blog-link">Validation & Ajustements</a></li>
-
                 <li className="mb-2"><a href="#articles" className="blog-link">Articles</a></li>
               </ul>
               <hr/>
@@ -55,7 +54,7 @@ class CreationProcess extends Component{
             {/*Second bloc : Environement de développement*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="environement">Environement de développement</h3>
+              <h3 id="environement-dev">Environement de développement</h3>
               <div className="p-4">
                 <h5>Éditeur de code</h5>
                 <p>Depuis mon entrée chez Ynov en 2018, j'utilise l'éditeur de code <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://atom.io">Atom Editor</a></span> (développé par Github) qui est pour moi le plus simple, le plus rapide et le plus beau graphiquement. Atom Editor est un des plus grand riveaux de <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://code.visualstudio.com">Visual Studio Code (VS Code)</a></span>.</p>
@@ -76,14 +75,14 @@ class CreationProcess extends Component{
             {/*Troisième bloc : Communication*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="environement">Communication dans l'association</h3>
+              <h3 id="communication">Communication dans l'association</h3>
               <p>La communication dans une association comportant seulement deux memebres est relativement rapide est simple. Dans le contexte particulier de mon stage il était assez simple d'informer ma tutrice de stage (trésorière de l'association) de mes dernières avancés. Nous communicons par mail si le besoin en est mais a 95% tu temps nous sommes ensemble en présentiel quand il s'agit de parler site web.</p>
             </div>
 
             {/*Quatrième bloc : Validation & Ajustements*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="environement">Validation & Ajustuments</h3>
+              <h3 id="validation">Validation & Ajustuments</h3>
               <p>Pour ce qui relève de la validation du travail, le tout est répartit en trois étapes :</p>
               <div className="p-4">
                 <h5>Imagination :</h5>
@@ -98,6 +97,15 @@ class CreationProcess extends Component{
                 <h5 className="mt-5">Validation :</h5>
                 <p>La validation se fait avec la présence d'Olivia, ma tutrice de stage. C'est avec elle que nous regardons le rendu final des éléments développés et c'est à ce moment aussi que nous décidons si des ajustements doivent être réalisés.</p>
               </div>
+            </div>
+
+            {/*Cinquième bloc : Articles*/}
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="articles">Rédaction d'articles</h3>
+              <p>À la fin de mon stage chez Blinxon, il m'est demandé de rendre un Blog/Portfolio contenant des articles/posts à propos de mes activités lors de mon stage. C'est pourquoi les différents articles que vous avez pu voir ou que vous allez voir existent.</p>
+              <p>Ces derniers sont écrits au fur et à mesure des jours c'est pour cela que certaines parties ne sont pas terminées ou que certains bout de code montrés dans les articles contiennent encore des commentaires ou des fonctions de test.</p>
+              <p>Mes posts (articles) sont découpés en différentes parties pour qu'ils soient le plus clair et agréables à lire. Aussi il sont daté à leur écriture mais ne racntent pas de journée de travail. Il parlent d'un sujet (Tutoriel React par exemple) ou d'un élément du site web que j'ai développé et qui meritte de l'attention à mon gout (barre de navigation par exemple). Les articles peuvent aussi etre des explication sur le déroulement du stage dans sa globalité, comme ce que vous êtes en train de lire en ce moment même.</p>
             </div>
 
           </div>

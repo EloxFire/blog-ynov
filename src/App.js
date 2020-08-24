@@ -50,7 +50,7 @@ function App() {
             return null;
           }}/>
 
-          <Route path="/stageblinxon" component={props =>
+          <Route path="/stageblinxon" exact component={props =>
             <div>
               <StageBlinxon/>
             </div>
