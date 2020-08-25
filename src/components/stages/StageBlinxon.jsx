@@ -89,10 +89,10 @@ class StageBlinxon extends Component{
               <h3 id="articles">Articles</h3>
               <p>Cette section vous permet d'accéder aux différents articles que j'ai réalisé et qui décrivent le processus de développement et d'avancement de ma mission.</p>
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
-                <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595872601" link="react-setup"/>
-                <ArticleCard section="Article" title="Processus de création du site" image="creation-process.png" write_date="1595960936" link="processus-de-creation"/>
-                <ArticleCard section="Article" title="Barre de navigation" image="navbar-coding.png" write_date="1595960936" link="barre-de-navigation"/>
-                <ArticleCard section="Article" title="Site en single page ?" image="single-page.png" write_date="1595960936" link="single-page"/>
+                <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595960936" link="react-setup"/>
+                <ArticleCard section="Article" title="Processus de création du site" image="creation-process.png" write_date="1596136004" link="processus-de-creation"/>
+                <ArticleCard section="Article" title="Barre de navigation" image="navbar-coding.png" write_date="1596474362" link="barre-de-navigation"/>
+                <ArticleCard section="Article" title="Site en single page ?" image="single-page.png" write_date="1597079162" link="single-page"/>
                 {/*
                   Articles potentiels:
                   Compte à rebours

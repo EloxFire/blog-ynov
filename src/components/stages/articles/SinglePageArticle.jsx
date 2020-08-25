@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../../../sass/styles.scss';
 
-import singlePageWebsiteExemple from '../../../img/images-articles/single-page/single-page-website-exemple.png';
 import blinxonLongPageDesktop from '../../../img/images-articles/single-page/long-screen-blinxon.png';
 import blinxonLongPageMobile from '../../../img/images-articles/single-page/long-screen-blinxon-mobile.png';
 
