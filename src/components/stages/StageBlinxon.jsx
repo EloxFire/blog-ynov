@@ -36,8 +36,8 @@ class StageBlinxon extends Component{
               <hr/>
               <p>Articles en vrac :</p>
               <ul>
-                <li><a href="/article/reactsetup">Installation de ReactJS</a></li>
-                <li><a href="/article/navbar">Barre de navigation</a></li>
+                <li><a href="/article/react-installation">Installation de ReactJS</a></li>
+                <li><a href="/article/barre-de-navigation">Barre de navigation</a></li>
               </ul>
               <hr/>
             </div>

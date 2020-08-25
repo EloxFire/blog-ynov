@@ -57,7 +57,7 @@ function App() {
             </div>
           }/>
 
-          <Route path="/article/react-setup" component={props =>
+          <Route path="/article/react-installation" component={props =>
             <div>
               <ReactSetup/>
             </div>

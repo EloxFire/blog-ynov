@@ -43,18 +43,14 @@ class SinglePageArticle extends Component{
             {/*Premier bloc : Environement de travail*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="environement">Environement de travail</h3>
-              <div className="p-4">
-                <h5>Lieu de travail</h5>
-                <p>J'effectue mon stage dans l'association Blinxon, je suis aussi président de cette association. Le siège social de Blinxon est situé au <span className="overlined">66 impasse des romarins à Saint Cannat</span>, je travaille donc au siège de l'association, c'est à dire chez moi.</p>
-
-                <h5>Journées</h5>
-                <p>J'effectue des journées de <span className="overlined">8 heures</span> de travail sur les horaires suivantes : </p>
-                <ul>
-                  <li><span className="overlined">Lundi au Vendredi de 9h à 17h</span>.</li>
-                </ul>
-              </div>
+              <h3 id="environement">Article </h3>
             </div>
+
+            {/*Second bloc : Single page & React
+            <div className="margin-separator">
+              <hr/>
+              <h3 id="environement">Article toujours en écriture...</h3>
+            </div>*/}
 
           </div>
         </div>
