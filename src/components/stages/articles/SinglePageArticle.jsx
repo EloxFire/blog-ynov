@@ -37,7 +37,7 @@ class SinglePageArticle extends Component{
             <div className="col-12 text-center mb-5">
               <img className="mr-5" style={{maxHeight:"100vh"}} src={blinxonLongPageDesktop} alt="Exemple de site single page"/>
               <img className="ml-5" style={{maxHeight:"100vh"}} src={blinxonLongPageMobile} alt="Exemple de site single page"/>
-              <p>Site de Blinxon sur une seule page <span style={{fontWeight:"400"}}>(Capture d'écran sur une version antérieure du site)</span></p>
+              <p>Site de Blinxon sur une seule page (Captures d'écrans sur une version non finale du site)</p>
             </div>
 
             {/*Premier bloc : Environement de travail*/}
