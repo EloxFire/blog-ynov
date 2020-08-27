@@ -39,7 +39,7 @@ class Intro extends Component{
             <div className="mb-5">
               <h2>Stage de validation ?</h2>
               <hr style={{backgroundColor:"#9146FF"}}/>
-              <p className="card-text">A la fin de chaque année d'études chez Ynov, il nous est demandé d'effectuer un stage en milieu professionnel. Ce dernier abouti à une note de laquelle dépend la validitée de notre année effectuée.</p>
+              <p className="card-text">A la fin de chaque année d'études chez Ynov, il nous est demandé d'effectuer un stage en milieu professionel. Ce dernier abouti à une note de laquelle dépend la validité de notre année effectuée.</p>
             </div>
 
             <div className="mb-5">
@@ -51,7 +51,7 @@ class Intro extends Component{
             <div className="mb-5">
               <h2>Mes stages ?</h2>
               <hr style={{backgroundColor:"#9146FF"}}/>
-              <p className="card-text">Ce blog est un reccueil de mes différentes expériences de stage durant mon parcours chez Ynov, mais il servent aussi à vous montrer mes compétences et ce que je suis capable de faire en milieu prfessionnel. Vous pouvez acceder aux différents articles de stages ci-après.</p>
+              <p className="card-text">Ce blog est un reccueil de mes différentes expériences de stage durant mon parcours chez Ynov, mais il servent aussi à vous montrer mes compétences et ce dont je suis capable en milieu prfessionel. Vous pouvez accéder aux différents articles de stages ci-après.</p>
             </div>
           </div>
           <div style={{height:"90vh"}} className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 p-lg-4 d-flex flex-wrap justify-content-center align-items-center">
@@ -66,7 +66,7 @@ class Intro extends Component{
             <hr/>
             <div className="d-flex flex-column justify-content-center">
               <p className="card-text">Je m'appelle Enzo Avagliano, je suis en seconde année de bachelor informatique sur le campus Ynov Aix-en-Provence.</p>
-              <p>Je code depuis près de 4 ans maintenant. J'ai découvert l'univers du développement grâce aux jeux vidéos et notement "Minecraft", jeu sur lequel je développais mes propres plugins en Java.</p>
+              <p>Je code depuis près de 4 ans maintenant. J'ai découvert l'univers du développement grâce aux jeux vidéos et notamment "Minecraft", jeu sur lequel je développais mes propres plugins en Java.</p>
               <p>Maintenant le développement est une passion et je souhaite me spécialiser en tant que développeur web Front-end.</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ class Intro extends Component{
             <h3>Mes compétences : </h3>
             <hr/>
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <p>Depuis mon entrée à Ynov, certaines technologies m'ont beacoup inspirées et certaines autres sont devenues mes outils du quotidien, voilà un apperçu de ce que j'utilise pour travailler chaque jour :</p>
+              <p>Depuis mon entrée à Ynov, certaines technologies m'ont beacoup inspiré et certaines autres sont devenues mes outils du quotidien. Voilà un apperçu de ce que j'utilise pour travailler chaque jour :</p>
               <div className="d-flex flex-wrap justify-content-center align-items-center">
                 <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={htmlLogo} alt="HTML 5 Logo"/>HTML 5</p>
                 <p className="m-3"><img style={{maxWidth:"30px",marginRight:"5px"}} src={reactLogo} alt="ReactJS Logo"/>ReactJS</p>
