@@ -12,7 +12,7 @@ class Stages extends Component{
           <div className="mb-5">
             <h2>Stage de fin d'année ?</h2>
             <hr style={{backgroundColor:"#9146FF"}}/>
-            <p className="card-text">A la fin de chaque année d'études chez Ynov, il nous est demandé d'effectuer un stage en milieu professionnel. Ce dernier abouti à une note de laquelle dépend la validitée de notre année effectuée.</p>
+            <p className="card-text">A la fin de chaque année d'études chez Ynov, il nous est demandé d'effectuer un stage en milieu professionnel. Ce dernier abouti à une note de laquelle dépend la validité de notre année effectuée.</p>
           </div>
           <div className="mb-5">
             <h2>Choix de l'entreprise</h2>
@@ -22,7 +22,7 @@ class Stages extends Component{
           <div className="mb-5">
             <h2>Mes stages</h2>
             <hr style={{backgroundColor:"#9146FF"}}/>
-            <p className="card-text">Ce blog est un reccueil de mes différentes expériences de stage durant mon parcours chez Ynov, mais il servent aussi à vous montrer mes compétences et ce que je suis capable de faire en milieu prfessionnel. Vous pouvez acceder aux différents articles de stages ci-contre.</p>
+            <p className="card-text">Ce blog est un reccueil de mes différentes expériences de stage durant mon parcours chez Ynov, mais il sert aussi à vous montrer mes compétences et ce dont je suis capable en milieu prfessionel. Vous pouvez acceder aux différents articles de stages ci-contre.</p>
           </div>
         </div>
         <div className="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 p-5 d-flex flex-column justify-content-around">
