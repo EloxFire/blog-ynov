@@ -6,8 +6,8 @@ function ArticleCard(props){
   let articleCardStyle = {
     border: "1px solid rgba(0, 0, 0, 0.2)",
     borderRadius: "10px",
-    height: "35vh",
-    width: "35vh",
+    height: "45vh",
+    width: "30vh",
   }
 
   let articleImage = {
@@ -28,7 +28,7 @@ function ArticleCard(props){
         <span>{props.title}</span>
         <div style={{height:"1px",backgroundColor:"rgba(0, 0, 0, 0.1)"}} className="mb-4"></div>
         <a style={{color:"#9146FF",fontWeight:"bold"}} href={`/article/${props.link}`}>Accéder à l'article.</a>
-        <span style={{fontWeight:"normal",textTransform:"lowercase"}} className="align-self-end"><Timestamp  autoUpdate date={props.write_date}/></span>
+        <span style={{fontWeight:"normal",textTransform:"lowercase",fontSize:"80%"}} className="align-self-end"><Timestamp  autoUpdate date={props.write_date}/></span>
       </div>
     </div>
   )

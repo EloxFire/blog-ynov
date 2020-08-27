@@ -8,6 +8,7 @@ import ReactSetup from './components/stages/articles/ReactSetup';
 import NavbarArticle from './components/stages/articles/NavbarArticle';
 import CreationProcess from './components/stages/articles/CreationProcess';
 import SinglePageArticle from './components/stages/articles/SinglePageArticle';
+import CharteGraphiqueArticle from './components/stages/articles/CharteGraphiqueArticle';
 import Footer from './components/Footer';
 
 function App() {
@@ -57,7 +58,7 @@ function App() {
             </div>
           }/>
 
-          <Route path="/article/react-installation" component={props =>
+          <Route path="/article/installation-de-react" component={props =>
             <div>
               <ReactSetup/>
             </div>
@@ -78,6 +79,12 @@ function App() {
           <Route path="/article/single-page" component={props =>
             <div>
               <SinglePageArticle/>
+            </div>
+          }/>
+
+          <Route path="/article/charte-graphique" component={props =>
+            <div>
+              <CharteGraphiqueArticle/>
             </div>
           }/>
         </Switch>

@@ -20,23 +20,16 @@ class StageBlinxon extends Component{
                     <li><a href="#association" className="blog-link">Besoins</a></li>
                   </ul>
                 </li>
-                <li className="mb-2"><a href="#misison" className="blog-link">Ma missison</a></li>
+                <li className="mb-2"><a href="#missison" className="blog-link">Ma missison</a></li>
                 <li className="mb-2"><a href="#articles" className="blog-link">Articles de mission</a></li>
-                <li className="mb-2"><a href="#problemes" className="blog-link">Les problèmes</a></li>
-                <li><a href="#conclusion" className="blog-link">Conclusion</a></li>
-                <li className="mb-2" style={{listStyleType:"none"}}>
-                  <ul>
-                    <li><a href="#conclusion" className="blog-link">Mon retour</a></li>
-                    <li><a href="#conclusion" className="blog-link">Améliorations</a></li>
-                  </ul>
-                </li>
+                <li className="mb-2"><a href="#conclusion" className="blog-link">Conclusion</a></li>
               </ul>
               <hr/>
               <a href="#articles">Accéder aux articles</a>
               <hr/>
               <p>Articles en vrac :</p>
               <ul>
-                <li><a href="/article/react-installation">Installation de ReactJS</a></li>
+                <li><a href="/article/installation-de-react">Installation de ReactJS</a></li>
                 <li><a href="/article/barre-de-navigation">Barre de navigation</a></li>
               </ul>
               <hr/>
@@ -89,27 +82,20 @@ class StageBlinxon extends Component{
               <h3 id="articles">Articles</h3>
               <p>Cette section vous permet d'accéder aux différents articles que j'ai réalisé et qui décrivent le processus de développement et d'avancement de ma mission.</p>
               <div className="col-12 d-flex flex-wrap justify-content-center align-items-center">
-                <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595960936" link="react-setup"/>
+                <ArticleCard section="Tutoriel" title="Instalation de ReactJS" image="react-setup.png" write_date="1595960936" link="installation-de-react"/>
                 <ArticleCard section="Article" title="Processus de création du site" image="creation-process.png" write_date="1596136004" link="processus-de-creation"/>
                 <ArticleCard section="Article" title="Barre de navigation" image="navbar-coding.png" write_date="1596474362" link="barre-de-navigation"/>
                 <ArticleCard section="Article" title="Site en single page ?" image="single-page.png" write_date="1597079162" link="single-page"/>
+                <ArticleCard section="Article" title="Charte graphique" image="charte-graphique.png" write_date="1597479826" link="charte-graphique"/>
                 {/*
                   Articles potentiels:
                   Compte à rebours
-                  Design
-                  Journée de travail type
-                  explication single
+                  Charte Graphique
                 */}
               </div>
             </div>
 
-            {/*Cinquieme bloc : Les problèmes rencontrés*/}
-            <div className="margin-separator">
-              <hr/>
-              <h3 id="problemes">Problèmes rencontrés</h3>
-            </div>
-
-            {/*Sixieme bloc : Conclusion*/}
+            {/*Cinquième bloc : Conclusion*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Conclusion</h3>

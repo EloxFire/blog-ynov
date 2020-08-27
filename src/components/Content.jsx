@@ -62,7 +62,7 @@ class Intro extends Component{
       {/*MON PROFIL x ME CONTACTER x CV*/}
         <div id="profil" className="d-flex flex-column flex-xs-column flex-sm-column flex-md-column flex-lg-row">
           <div className="col-12 col-lg-4 p-2">
-            <h3>À propos de moi :</h3>
+            <h3>À mon sujet :</h3>
             <hr/>
             <div className="d-flex flex-column justify-content-center">
               <p className="card-text">Je m'appelle Enzo Avagliano, je suis en seconde année de bachelor informatique sur le campus Ynov Aix-en-Provence.</p>
