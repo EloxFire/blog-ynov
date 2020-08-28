@@ -29,17 +29,11 @@ class NavbarArticle extends Component{
                     <li><a href="#navigation" className="blog-link">Solution</a></li>
                   </ul>
                 </li>
-
                 <li className="mb-2"><a href="#detail" className="blog-link">Détail de la solution</a></li>
-
                 <li className="mb-2"><a href="#flux" className="blog-link">Flux de navigation</a></li>
-
                 <li className="mb-2"><a href="#react-router-dom" className="blog-link">react-router-dom</a></li>
-
                 <li className="mb-2"><a href="#moncode" className="blog-link">Mon code</a></li>
-
                 <li className="mb-2"><a href="#problemes" className="blog-link">Problèmes rencontrés</a></li>
-
                 <li className="mb-2"><a href="#conclusion" className="blog-link">Conclusion</a></li>
               </ul>
               <hr/>
@@ -53,7 +47,7 @@ class NavbarArticle extends Component{
           {/*CONTENU DU RAPPORT DE STAGE*/}
           <div className="col-lg-9 col-12 p-5">
             <h3>Article : Navigation sur le site Blinxon</h3>
-            <p>Une barre de navigation est obligatoire si nous concevons un site contenant plusieurs pages. Les utilisateur doivent pouvoir naviger aisément sur notre site. Cet article va vous detailler la conception de la barre de navigation pour le site de l'association Blinxon.</p>
+            <p>Une barre de navigation est obligatoire si nous concevons un site contenant plusieurs pages. Les utilisateurs doivent pouvoir naviger aisément sur notre site. Cet article va vous détailler la conception de la barre de navigation pour le site de l'association Blinxon.</p>
             <hr/>
             <div className="col-12 text-center mb-5">
               <img style={{maxHeight:"20vh", maxWidth:"100%"}} src={navbar} alt="Barre de navigation sur ordinateur"/>
@@ -70,10 +64,10 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="navigation">Navigation sur le site</h3>
-              <p>Les membres de l'association souhaitaient une navigtion simple et qui permette à l'utilisateur d'accéder à tout leur contenu peut importe oû ils se trouvent sur la page ou sur le site.</p>
+              <p>Les membres de l'association souhaitaient une navigtion simple et qui permette à l'utilisateur d'accéder à tout leur contenu peu importe où ils se trouvent sur la page ou sur le site.</p>
               <div className="p-4">
                 <h5>Solution</h5>
-                <p>La solution était donc toute trouvée : une barre de navigation classique mais toujours visible, collée en haut de l'ecran afin d-y avoir accès à tout instant.</p>
+                <p>La solution était donc toute trouvée : une barre de navigation classique mais toujours visible, collée en haut de l'écran afin d'y avoir accès à tout instant.</p>
               </div>
             </div>
 
@@ -81,16 +75,16 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="detail">Détail de la solution</h3>
-              <p>Après avoir choisi d'utiliser une barre de navigation fixe, collée en haut de page, il me fallait déterminer quels liens et quel contenu mettre à l'intérieur fin de pouvoir les prioriser et savoir l'ordre des liens.</p>
-              <p>Ce travail fût assez simple, le projet de participation au 4L Trophy, qu'ambitionne l'association Blinxon se divise très simplement en grandes partie. Ces dernères sont les suivantes :</p>
+              <p>Après avoir choisi d'utiliser une barre de navigation fixe, collée en haut de page, il me fallait déterminer quels liens et quel contenu mettre à l'intérieur afin de pouvoir les prioriser et savoir l'ordre des liens.</p>
+              <p>Ce travail fût assez simple, le projet de participation au 4L Trophy, qu'ambitionne l'association Blinxon se divise très simplement en grandes parties. Ces dernières sont les suivantes :</p>
               <ul>
-                <li>Présentation de l'equipage</li>
+                <li>Présentation de l'équipage</li>
                 <li>Qu'est ce que le 4l Trophy</li>
-                <li>Qui est 'Enfants du désert' (L'association partenaire du raid)</li>
+                <li>Qui sont 'Enfants du désert' (L'association partenaire du raid)</li>
                 <li>Comment aider l'équipage (en tant qu'entreprise ou particulier)</li>
                 <li>Les réseaux sociaux de l'équipage</li>
               </ul>
-              <p>Une fois ces différentes parties vues et validées par ma tutrice de stage, j'ai pu commencer mon développement. J'ai d'abbord commencé par chercher des mots clés, rapide et efficaces qui rentrent dans une barre de navigation et qui soient explicites sur le contenu que l'utilisateur verra.</p>
+              <p>Une fois ces différentes parties vues et validées par ma tutrice de stage, j'ai pu commencer mon développement. J'ai d'abbord commencé par chercher des mots clés, rapides et efficaces qui rentrent dans une barre de navigation et qui soient explicites sur le contenu que l'utilisateur verra.</p>
               <p>J'ai donc fini avec ces différents liens :</p>
               <ul>
                 <li><strong>"Accueil"</strong> : Retour à la landing page du site.</li>
@@ -98,7 +92,7 @@ class NavbarArticle extends Component{
                 <li><strong>"Le Raid"</strong> : Section de présentation du 4L Trophy</li>
                 <li><strong>"Enfants du désert"</strong> : Section de présentation de l'association partenaire</li>
                 <li><strong>"Nous aider"</strong> : Section de présentation des moyens pour aider l'association dans leur aventure.</li>
-                <li><strong>"Nos réseaux"</strong> : Section contenant tous les liens externes qui ramenent vers les différents réseaux sociaux de l'association.</li>
+                <li><strong>"Nos réseaux"</strong> : Section contenant tous les liens externes qui ramènent vers les différents réseaux sociaux de l'association.</li>
               </ul>
 
               <p>Dans la prochaine section de cet article nous passerons en revue la structure générale et les éléments importants du code de cette fameuse barre de navigation. Nous introduirons aussi un paquet npm nommé <span className="overlined"><a style={{color:"black"}} rel="noopener noreferrer" target="_blank" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span>.</p>
@@ -108,7 +102,7 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="flux">Flux de navigation sur le site</h3>
-              <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquants les possibilités de navigation.</p>
+              <p>Cette courte section de l'article vise à vous montrer quels sont les différents flux de navigation sur le site de l'association. Pour ce faire, voilà ci-dessous plusieurs schéma vous indiquant les possibilités de navigation.</p>
               <div className="col-12 d-flex flex-row justify-content-center">
                 <img style={{maxWidth:"100%",maxHeight:"80vh"}} src={fluxNavigation} alt="Flux de navigation du site"/>
               </div>
@@ -119,8 +113,8 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="react-router-dom">react-router-dom</h3>
-              <p><span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> est une extension a React qui permet de gérer les routes d’une application coté client. Il permet de synchroniser (d’associer) des composants graphiques React à des urls.</p>
-              <p>Pour notre navigation, nous utiliserons trois éléments que nous fournis <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> :</p>
+              <p><span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> est une extension de React qui permet de gérer les routes d’une application côté client. Il permet de synchroniser (d’associer) des composants graphiques React à des urls.</p>
+              <p>Pour notre navigation, nous utiliserons trois éléments que nous fourni <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> :</p>
               <img style={{maxWidth:"100%"}} src={reactRouterDomElements} alt="Elements de react-router-dom utilisés"/>
 
               <p className="pt-3">Avant de regarder le code de notre Navbar en détail, nous allons regarder comment marchent les trois éléments cités précédement.</p>
@@ -147,22 +141,22 @@ class NavbarArticle extends Component{
               <hr/>
               <h3 id="moncode">Mon code</h3>
               <p>Maintenant, je vais vous présenter mon code pour la barre de navigation du site de l'association Blinxon :</p>
-              <p>La barre de navigation que j'ai développé s'appuis sur tous les principes que nous avons déjà vus :</p>
+              <p>La barre de navigation que j'ai développée s'appuie sur tous les principes que nous avons déjà vus :</p>
               <ul>
-                <li>L'utilisation des <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/reactsetup#react">fonctions-composants</a></span>.</li>
+                <li>L'utilisation des <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/installation-de-react#react">fonctions-composants</a></span>.</li>
                 <li>L'utilisation de <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span>.</li>
               </ul>
               <p>Je précise aussi que pour la conception de cette navbar et aussi pour tout le site de Blinxon, j'utilise <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">Bootstrap 4</a></span>.</p>
               <hr style={{width:"60%"}}/>
               <p>Le code est très classique, et ne comporte que des élément HTML simple : <code>ul, li, div, a</code></p>
-              <p>Elle est rendue responsive sur mobile et tablette grâce aux différentes classes <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">Bootstrap 4</a></span>.</p>
-              <p>Le site de Blinxon possède un <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/countdown">compte à rebours</a></span> indiquant la date du départ du Raid 4L Trophy. Ce compte à rebours est visible dans la barre de navigation et est un composant React à part, simplement utilisé dans notre navbar.</p>
-              <p>Voilà ci-dessous le code de la barre de navigation. Comme vous pouvez le voir c'est un composant React, mais ce n'est pas une <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/reactsetup#react">fonction-composant</a></span>; j'ai utilisé à la place une autre méthode pour créer un composant React : Une classe Javascript qui étend l'objet React 'Composant'.</p>
-              <p>Vous pouvez aussi appercevoir certaines classes Bootstrap de base, laissées inchangée car ce n'était pas utile.</p>
+              <p>La barre de navigation est rendue responsive sur mobile et tablette grâce aux différentes classes <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://getbootstrap.com/">Bootstrap 4</a></span>.</p>
+              <p>Le site de Blinxon possède un <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/compte-a-rebours">compte à rebours</a></span> indiquant la date du départ du Raid 4L Trophy. Ce compte à rebours est visible dans la barre de navigation et est un composant React à part, simplement utilisé dans notre navbar.</p>
+              <p>Voilà ci-dessous le code de la barre de navigation. Comme vous pouvez le voir c'est un composant React, mais ce n'est pas une <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="/article/installation-de-react#react">fonction-composant</a></span>; j'ai utilisé à la place une autre méthode pour créer un composant React : Une classe Javascript qui étend l'objet React 'Composant'.</p>
+              <p>Vous pouvez aussi appercevoir certaines classes Bootstrap de base, laissées inchangées car ce n'était pas utile.</p>
               <img style={{maxWidth:"100%"}} src={navbarCode} alt="Code source de la barre de navigation du site Blinxon"/>
 
-              <p className="mt-5">Comme je l'ai dis plus haut, j'ai fais de cette barre de navigation un composant React, qui de fait est utilisé comme suit dans notre fichier <code>App.js</code> avec les éléments de notre extention <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> :</p>
-              <p>Par la même occasion, vous pouvez voir comment j'ai défini mes différentes routes avec l'élément <code>&#60;Route/&#62;</code> présenté précédement. Certaines routes de renvoient pas de composants car à l'heure ou j'écris cet article, le site n'est pas encore terminé.</p>
+              <p className="mt-5">Comme je l'ai dis plus haut, j'ai fait de cette barre de navigation un composant React, qui, de fait est utilisé comme suit dans notre fichier <code>App.js</code> avec les éléments de notre extension <span className="overlined"><a style={{color:"black"}} target="_blank" rel="noopener noreferrer" href="https://reactrouter.com/web/guides/quick-start">react-router-dom</a></span> :</p>
+              <p>Par la même occasion, vous pouvez voir comment j'ai défini mes différentes routes avec l'élément <code>&#60;Route/&#62;</code> présenté précédement. Certaines routes ne renvoient pas de composants car à l'heure où j'écris cet article, le site n'est pas encore terminé.</p>
               <img style={{maxWidth:"100%"}} src={navbarUse} alt="Code d'utilisation de la barre de navigation dans App.js"/>
             </div>
 
@@ -170,17 +164,17 @@ class NavbarArticle extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="problemes">Problèmes rencontrés</h3>
-              <p>Développer une barre de navigation grâce aux outils que j'ai utilisé peut s'avérer plutôt simple, mais nous ne sommes tout de même pas à l'abris des problèmes et des contre-temps. Je n'ai pas rencontré de soucis majeurs mais la partie responsive s'est montrée plus complexe qu'initialement prévue. <br/>La disposition des éléments n'était pas optimale et créais des débordements sur les bords de l'ecran en version mobile, ce qui à eu pour effet de laisser la possibilité à l'utilisateur de 'scroller' vers la droite en direction d'une partie de page blanche qui n'avait rien à faire ici.</p>
-              <p>Le problème venait de mon composant compte à rebours qui n'était pas adapté pour rentrer dans un espace si restreint. J'ai donc réglé le soucis en donnant à ce fameux composant des propriétés de taille de texte, ce qui le rends désormais personnalisable à souhait en termes de taille.</p>
+              <p>Développer une barre de navigation grâce aux outils que j'ai utilisé peut s'avérer plutôt simple, mais nous ne sommes tout de même pas à l'abri des problèmes et des contre-temps. Je n'ai pas rencontré de soucis majeurs mais la partie responsive s'est montrée plus complexe qu'initialement prévue. <br/>La disposition des éléments n'était pas optimale et créait des débordements sur les bords de l'écran en version mobile, ce qui a eu pour effet de laisser la possibilité à l'utilisateur de 'scroller' vers la droite en direction d'une partie de page blanche qui n'avait rien à faire ici.</p>
+              <p>Le problème venait de mon composant compte à rebours qui n'était pas adapté pour rentrer dans un espace si restreint. J'ai donc réglé le soucis en donnant à ce fameux composant des propriétés de taille de texte, ce qui le rend désormais personnalisable à souhait en terme de taille.</p>
               <img style={{maxWidth:"100%"}} src={timerIssueFont} alt="Composant compte à rebours et sa propriété"/>
-              <p className="mt-3">Le reste de la barre de navigation n'as pas posé de soucis, c'était un exercice plutôt basique et sans trop de difficultés.</p>
+              <p className="mt-3">Le reste de la barre de navigation n'a pas posé de soucis, c'était un exercice plutôt basique et sans trop de difficultés.</p>
             </div>
 
             {/*Septième bloc : Conclusion*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="conclusion">Conclusion</h3>
-              <p>Pour conclure cet article, je retiendrais que les barres de navigation, bien que des éléments communs et indissociables des sites web, sont la clé vers la création d'un site agréable à utiliser. Il ne faut pas les négliger et surtout réussir à faire en sorte qu'elle soit le plus compréhensible et 'user-friendly' possible.</p>
+              <p>Pour conclure cet article, je retiendrais que les barres de navigation, bien que des éléments communs et indissociables des sites web, sont la clé vers la création d'un site agréable à utiliser. Il ne faut pas les négliger et surtout réussir à faire en sorte qu'elles soient les plus compréhensibles et 'user-friendly' possible.</p>
             </div>
           </div>
         </div>

@@ -13,7 +13,6 @@ class NavbarArticle extends Component{
               <h4>Table des matières</h4>
               <hr/>
               <ul>
-                <li className="mb-2"><a href="#charte-graphique" className="blog-link">C'est quoi ?</a></li>
                 <li className="mb-2"><a href="#presentation" className="blog-link">Présentation de la charte graphique</a></li>
                 <li className="mb-2"><a href="#choix" className="blog-link">Choix des couleurs</a></li>
               </ul>
@@ -28,13 +27,13 @@ class NavbarArticle extends Component{
           {/*CONTENU DU RAPPORT DE STAGE*/}
           <div className="col-lg-9 col-12 p-5">
             <h3>Article : Charte Graphique du site Blinxon</h3>
-            <p>Une charte graphique est un document contenant l'ensemble des reglès graphiques qui constituent l'identité graphique d'une organisation, d'une marque ou encore d'un projet. </p>
+            <p>Une charte graphique est un document contenant l'ensemble des règles graphiques qui constituent l'identité graphique d'une organisation, d'une marque ou encore d'un projet. </p>
             <hr/>
 
             {/*Premier bloc : Présentation de la charte graphique*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="charte-graphique">Présentation de la charte graphique</h3>
+              <h3 id="presentation">Présentation de la charte graphique</h3>
               <p>L'association Blinxon possédait déjà une certaine charte graphique et des éléménts caractériqtiques de son identité.</p>
 
               <div className="p-4">
@@ -73,7 +72,7 @@ class NavbarArticle extends Component{
             {/*Second bloc : Choix des couleurs*/}
             <div className="margin-separator">
               <hr/>
-              <h3 id="charte-graphique">Choix des couleurs</h3>
+              <h3 id="choix">Choix des couleurs</h3>
               <p>Les couleurs de l'identité graphique de l'association ont été définies comme tel lors de la création du logo de l'association, au moment de son enregistrement auprès de la préfecture. Les deux couleurs principales, à savoir le rouge et le beige sont assez contrastées entre elles, tout en gardant un aspect doux et chaleureux.</p>
               <p>Le rouge provient de la couleur du ciel au moment du coucher de soleil que l'on peut retrouver sur le logo de l'association.</p>
               <p>Le beige quand à lui, fait référence au sable du désert.</p>

@@ -9,6 +9,7 @@ import NavbarArticle from './components/stages/articles/NavbarArticle';
 import CreationProcess from './components/stages/articles/CreationProcess';
 import SinglePageArticle from './components/stages/articles/SinglePageArticle';
 import CharteGraphiqueArticle from './components/stages/articles/CharteGraphiqueArticle';
+import Countdown from './components/stages/articles/Countdown';
 import Footer from './components/Footer';
 
 function App() {
@@ -85,6 +86,12 @@ function App() {
           <Route path="/article/charte-graphique" component={props =>
             <div>
               <CharteGraphiqueArticle/>
+            </div>
+          }/>
+
+          <Route path="/article/compte-a-rebours" component={props =>
+            <div>
+              <Countdown/>
             </div>
           }/>
         </Switch>

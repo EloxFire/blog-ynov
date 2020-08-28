@@ -39,7 +39,7 @@ class StageBlinxon extends Component{
           {/*CONTENU DU RAPPORT DE STAGE*/}
           <div className="col-lg-9 col-12 p-5">
             <h3>Stage bénévole en association - Blinxon</h3>
-            <p>Blinxon est une association qui à pour but de participer au mytique raid humanitaire '4L Trophy' en février 2021.</p>
+            <p>Blinxon est une association qui a pour but de participer au mythique raid humanitaire '4L Trophy' en février 2021.</p>
             <hr/>
             <div className="col-12 text-center mb-5">
               <img style={{maxHeight:"20vh"}} src={blinxonLogo} alt="Logo de l'associaiton Blinxon"/>
@@ -50,30 +50,30 @@ class StageBlinxon extends Component{
             <div className="margin-separator">
               <hr/>
               <h3 id="association">L'association</h3>
-              <p>Blinxon à été fondée le 15 mars 2020 avec un but en tête : participer au <u><a style={{textDecoration:"none",color:"black"}} target="_blank" rel="noopener noreferrer" href="https://www.4ltrophy.com">4L Trophy 2021</a>.</u></p>
-              <p>C'est un défi un peu foub, mais qui en vaut la peine ! Un raid humanitaire réservé au jeunes de 18 à 28 ans, partant de Biarritz dans les Pyrénés Atlantiques et avec pour destination Marrakech au Marroc !</p>
-              <p>Afin de réaliser ce projet, l'association composée de deux membres : Enzo Avagliano (Président) et Olivia Masson (Trésorière), doit réunir un budget assez conséquent, près de 9000€, afin de couvrir tous les frais nécéssaires, dont l'inscription au raid.</p>
+              <p>Blinxon a été fondée le 15 mars 2020 avec un but en tête : participer au <u><a style={{textDecoration:"none",color:"black"}} target="_blank" rel="noopener noreferrer" href="https://www.4ltrophy.com">4L Trophy 2021</a>.</u></p>
+              <p>C'est un défi un peu fou, mais qui en vaut la peine ! Un raid humanitaire réservé aux jeunes de 18 à 28 ans, partant de Biarritz dans les Pyrénées Atlantiques et avec pour destination Marrakech au Maroc !</p>
+              <p>Afin de réaliser ce projet, l'association composée de deux membres : Enzo Avagliano (Président) et Olivia Masson (Trésorière), doivent réunir un budget assez conséquent, près de 9000€, afin de couvrir tous les frais nécéssaires, dont l'inscription au raid.</p>
             </div>
 
             {/*Second bloc : Besoins de l'association*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="besoins">Besoins de l'association</h3>
-              <p>Pour réunir le budget évoqué ci-dessus, les deux membres de l'association ont déjà mis en place plusieures solution :</p>
+              <p>Pour réunir le budget évoqué ci-dessus, les deux membres de l'association ont déjà mis en place plusieurs solutions :</p>
               <ul>
-                <li>Une cagnote en ligne, ouverte à tout don public</li>
-                <li>Un dossier de sponsoring, leur permettant de démarcher des entreprises afin d'établir des contrats de partenariat financiers en échange de publicité.</li>
+                <li>Une cagnotte en ligne, ouverte à tout don public</li>
+                <li>Un dossier de sponsoring, leur permettant de démarcher des entreprises afin d'établir des contrats de partenariat financier en échange de publicité.</li>
                 <li>Un panel de réseaux sociaux (Instagram, Twitter, Facebook), sur lesquels ils postent régulièrement les dernières informations sur leur préparation pour l'aventure.</li>
               </ul>
-              <p>Toutes des solutions sont utiles à leur manière, mais l'association à besoin de plus de visibilité et d'un endroit capable de rassembler toutes leurs information, contacts, posts, nouvelles en un seul point. Et cette dernière solution est toute trouvé : <strong>Un site web</strong></p>
+              <p>Toutes ces solutions sont utiles à leur manière, mais l'association à besoin de plus de visibilité et d'un endroit capable de rassembler toutes leurs informations, contacts, posts, nouvelles en un seul point. Et cette dernière solution est toute trouvée : <strong>Un site web</strong>.</p>
             </div>
 
             {/*Troisième bloc : Ma mission*/}
             <div className="margin-separator">
               <hr/>
               <h3 id="mission">Ma mission</h3>
-              <p>La mission qui m'est confiée est donc relativement simple. Concevoir et développer un site web responsive, moderne, aux couleurs de Blinxon et qui soit assez ergonomique afin d'y placer toutes les informations nécéssaires pour augmenter les chances des les membres de l'association dans leur recherche de fonds financers.</p>
-              <p>Vous pourrez découvir le déroulement de tout le projet dans les articles qui suivent cette introduction.</p>
+              <p>La mission qui m'est confiée est donc relativement simple. Concevoir et développer un site web responsive, moderne, aux couleurs de Blinxon et qui soit assez ergonomique afin d'y placer toutes les informations nécessaires pour augmenter les chances des membres de l'association dans leur recherche de fonds financiers.</p>
+              <p>Vous pourrez découvrir le déroulement de tout le projet dans les articles qui suivent cette introduction.</p>
             </div>
 
             {/*Quatrieme bloc : Articles de mission*/}
@@ -87,11 +87,7 @@ class StageBlinxon extends Component{
                 <ArticleCard section="Article" title="Barre de navigation" image="navbar-coding.png" write_date="1596474362" link="barre-de-navigation"/>
                 <ArticleCard section="Article" title="Site en single page ?" image="single-page.png" write_date="1597079162" link="single-page"/>
                 <ArticleCard section="Article" title="Charte graphique" image="charte-graphique.png" write_date="1597479826" link="charte-graphique"/>
-                {/*
-                  Articles potentiels:
-                  Compte à rebours
-                  Charte Graphique
-                */}
+                <ArticleCard section="Article" title="Compte à rebours" image="countdown.png" write_date="1597925225" link="compte-a-rebours"/>
               </div>
             </div>
 
